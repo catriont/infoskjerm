@@ -30,7 +30,7 @@ const Station = (props) => {
 
     console.log(station);
     return <div className="station">
-        {station.name} - {station.bikesAvailable} ledige, {station.spacesAvailable} plasser
+        {station.name} - {station.bikesAvailable} sykler ledig, {station.spacesAvailable} plasser
         </div>
 };
 
